@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     	<title>Bootstrap基本的HTML模板</title>
+        <style>
+            .c1{
+                text-align: center;
+            }
+            .c2{
+                height: 200px;
+                width: 400px;
+            }
+            a{
+                padding-left: 100px;
+            }
+        </style>
+		<link  rel="stylesheet" href="../static/plugins/bootstrap-3.4.1/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/index.css" />
+        <script src="/static/js/common.js"></script>
+
+
+	<body>
+        <div class="nav "></div>
+        <div class="jumbotron">
+        <h1 class="c1">个人网站</h1>
+        <p class="c1">欢迎来到 032004136周超科 的个人博客 ！</p>
+        <p class="c1">2022秋软工实践个人作业二</p>
+    </div>
+    <div class="container">
+        <div class="row">
+        	<!-- 文章列表 -->
+            <div  class=" c2 col-md-4">
+           		<!-- 面板 -->
+                <div class="  panel panel-default">
+                    <div class="panel-header">
+                        <h2>个人信息</h2>
+                    </div>
+                    <div class="panel-body">
+                        <span>
+                            我来自数据科学与大数据一班，正处在大三的阶段下，努力学习代码，写好博客，欢迎交流
+                        </span>
+                    </div>
+                    <hr>
+                    <p><a class=" c1 btn btn-primary" href="#">留下你的足迹把！</a></p>
+                </div>
+            </div>
+            <div class=" c2 col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <h2>自我介绍</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>我喜欢和同学相处，平易近人，喜欢多人协作沟通快速完成作业</p>
+                        <hr>
+                         <p><a class="btn btn-primary" href="#">也快来介绍你自己把</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="  col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-header">
+                        <h2>兴趣爱好</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>我喜欢和同学出去骑骑车，交流交流学习心得，晚上也会去操场锻炼身体，跑步等等，欢迎有同样兴趣的人交流</p>
+                        <hr>
+                        <p><a class="btn btn-primary" href="#">快来加入我把</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>福大校园美丽风景</h2>
+                <img class="c2"  alt="图片缺失 " src="/static/img/1.jpg"/>
+            </div>
+            <div class="col-md-6">
+                <h2>网站参考的相关资源</h2>
+                <!-- 评论列表 -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                       <button class="btn-primary btn" onclick="window.location.href='https://github.com/wangzirui32/blog_HTML_design'" type="button" id="add">引用的网站模板来源github</button>
+                    </li>
+                    <li class="list-group-item">
+                        <button class="btn-primary btn" onclick="window.location.href='https://www.bootcss.com/'">参考boostrap网站，建议浏览</button>
+                    </li>
+                    <li class="list-group-item">
+                        <button class="btn-primary btn" onclick="window.location.href='https://www.bilibili.com/video/BV1TU4y1p7zU?spm_id_from=333.337.search-card.all.click'">b站HTML相关视频</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+		<script src="../static/js/jquery-3.6.0.min.js"></script>
+		<script src="../static/plugins/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
